@@ -1,0 +1,72 @@
+  
+  body {
+  text-align: center;
+  border: 3px solid green;
+  height: 5000;
+  background-color: black;
+  color: yellow;
+}
+html, body {
+  height: 100%;
+}
+
+
+ div one {
+   display: block;
+   top:0;
+   left: 50%;
+}
+ div two {
+   display: block;
+   bottom: 0;
+   left: 0;
+   padding-bottom: 100px;
+}
+ .krule {
+  top:0;
+  bottom: 50px;
+}
+.please {
+  top:0;
+  font-family: 'Gruppo';
+  font-size: 50px;
+}
+
+
+absolute {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center; 
+  bottom: 10px;
+  
+} 
+
+#img {
+  position:absolute; 
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+footer {
+    position: absolute;
+    bottom: 50px;
+    width: 98%;
+}
+.gifone { 
+  position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+  }
+  .giftwo { 
+  position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+  }
+  
